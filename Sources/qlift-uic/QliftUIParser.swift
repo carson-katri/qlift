@@ -1,5 +1,5 @@
 import Foundation
-
+import FoundationXML
 
 public class QliftUIParser: NSObject {
     private var rootNode = Node(parent: nil, text: "root")
