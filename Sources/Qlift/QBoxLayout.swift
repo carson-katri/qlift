@@ -26,7 +26,7 @@ open class QBoxLayout: QObject, QLayout {
         QBoxLayout_addWidget(self.ptr, widget.ptr, stretch, alignment)
     }
 
-    public func add(widget: QWidget) {
+    open func add(widget: QWidget) {
         self.add(widget: widget, stretch: 0, alignment: 0)
     }
 
